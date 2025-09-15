@@ -9,7 +9,7 @@ def bomb():
 def fake_calc():
     root = tk.Tk()
     root.title("Calculator")
-    tk.Label(root, text="Totally harmless calc...").pack()
+    tk.Label(root, text="Calculator").pack()
     tk.Button(root, text="=", command=bomb).pack()
     root.mainloop()
 
